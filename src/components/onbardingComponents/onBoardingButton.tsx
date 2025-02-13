@@ -73,7 +73,7 @@ const OnBoardingButton = ({ flatlistIndex, flatlistRef, itemLength, x }: Onboard
                 if (flatlistIndex.value < itemLength - 1) {
                     flatlistRef.current?.scrollToIndex({ index: flatlistIndex.value + 1 })
                 } else {
-                    // navigation.replace("TabsStack", { 'screen': 'Home' })
+                    navigation.replace("TabsStack", { 'screen': 'Home' })
                 }
             }}
         >
