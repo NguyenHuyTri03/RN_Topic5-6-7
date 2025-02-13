@@ -27,7 +27,8 @@ const TabNavigation = () => {
     return (
         <TabsStack.Navigator
             screenOptions={{
-                tabBarShowLabel: false
+                tabBarShowLabel: false,
+                tabBarInactiveBackgroundColor: '#4f4f4f'
             }}
         >
 

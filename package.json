@@ -22,7 +22,8 @@
     "react-dom": "18.3.1",
     "react-native": "0.76.7",
     "react-native-reanimated": "^3.16.7",
-    "react-native-web": "~0.19.13"
+    "react-native-web": "~0.19.13",
+    "usehooks-ts": "^3.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
